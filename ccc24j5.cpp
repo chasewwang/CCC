@@ -2,6 +2,9 @@
 #include <vector>
 #include <queue>
 using namespace std;
+// CCC '24 J5 - Harvest Waterloo
+// 6/20/2025
+// Chase Wang
 void bfs(int sr, int sc, vector<vector<char>> &g, vector<vector<bool>> &v, int &s, int &m, int &l)
 {
     int dr[] = {-1, 1, 0, 0};
